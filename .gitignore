@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+build/
+/captures
+.externalNativeBuild
+.cxx
+# Secrets de signature : ne jamais committer
+keystore.properties
+*.jks
+*.keystore

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette I-Prospekta : vert fonce, gris, orange, blanc -->
+    <color name="ip_green_900">#0C2A1E</color>
+    <color name="ip_green_700">#14543B</color>
+    <color name="ip_green_500">#1F7A55</color>
+    <color name="ip_orange_500">#E8792B</color>
+    <color name="ip_orange_300">#F4A261</color>
+    <color name="ip_grey_900">#1C1F1D</color>
+    <color name="ip_grey_700">#3A3F3C</color>
+    <color name="ip_grey_300">#C7CDC9</color>
+    <color name="ip_grey_100">#EEF1EF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

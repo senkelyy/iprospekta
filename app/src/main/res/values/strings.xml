@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">I-Prospekta</string>
+    <string name="tab_map">Carte</string>
+    <string name="tab_fieldbook">Carnet</string>
+    <string name="tab_compass">Boussole</string>
+    <string name="tab_about">À propos</string>
+</resources>

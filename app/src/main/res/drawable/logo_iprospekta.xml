@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Hexagone -->
+    <path
+        android:pathData="M92,50 L71,86.37 L29,86.37 L8,50 L29,13.63 L71,13.63 Z"
+        android:strokeColor="#E8792B"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    <!-- Aiguille nord (orange) -->
+    <path android:pathData="M50,20 L40,52 L60,52 Z" android:fillColor="#E8792B" />
+    <!-- Aiguille sud (blanc) -->
+    <path android:pathData="M50,80 L40,52 L60,52 Z" android:fillColor="#FFFFFF" />
+    <!-- Pivot -->
+    <path
+        android:pathData="M50,52 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFFFFF" />
+</vector>

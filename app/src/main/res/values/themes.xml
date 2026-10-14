@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme minimal : tout le theming visuel est fait dans Compose (Theme.kt).
+         Parent framework pour eviter toute dependance Material XML. -->
+    <style name="Theme.IProspekta" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ip_green_900</item>
+        <item name="android:statusBarColor">@color/ip_green_900</item>
+        <item name="android:navigationBarColor">@color/ip_green_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

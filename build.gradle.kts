@@ -1,0 +1,7 @@
+// Fichier de build racine. Les versions des plugins sont declarees ici,
+// et appliquees dans les modules (ici :app).
+plugins {
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.21" apply false
+}
