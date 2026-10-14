@@ -9,10 +9,10 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Explore
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Map
-import androidx.compose.material.icons.filled.MenuBook
+import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Place
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -56,9 +56,9 @@ class MainActivity : ComponentActivity() {
 }
 
 private enum class Tab(val label: String, val icon: ImageVector) {
-    MAP("Carte", Icons.Filled.Map),
-    FIELDBOOK("Carnet", Icons.Filled.MenuBook),
-    COMPASS("Boussole", Icons.Filled.Explore),
+    MAP("Carte", Icons.Filled.Place),
+    FIELDBOOK("Carnet", Icons.Filled.List),
+    COMPASS("Boussole", Icons.Filled.Refresh),
     ABOUT("À propos", Icons.Filled.Info)
 }
 

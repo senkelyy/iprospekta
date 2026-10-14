@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Layers
-import androidx.compose.material.icons.filled.MyLocation
+import androidx.compose.material.icons.filled.LocationOn
+import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -121,7 +121,7 @@ fun MapScreen(
             onClick = { tileIndex = (tileIndex + 1) % TILE_SOURCES.size },
             containerColor = MaterialTheme.colorScheme.surface,
             modifier = Modifier.align(Alignment.TopStart).padding(12.dp)
-        ) { Icon(Icons.Filled.Layers, contentDescription = "Fond ${TILE_NAMES[tileIndex]}") }
+        ) { Icon(Icons.Filled.Menu, contentDescription = "Fond ${TILE_NAMES[tileIndex]}") }
 
         // Centrer sur ma position
         SmallFloatingActionButton(
@@ -136,7 +136,7 @@ fun MapScreen(
             },
             containerColor = MaterialTheme.colorScheme.surface,
             modifier = Modifier.align(Alignment.BottomStart).padding(16.dp)
-        ) { Icon(Icons.Filled.MyLocation, contentDescription = "Ma position") }
+        ) { Icon(Icons.Filled.LocationOn, contentDescription = "Ma position") }
 
         // Ajouter un point a la position GPS courante
         FloatingActionButton(
